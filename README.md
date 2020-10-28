@@ -4,6 +4,6 @@
 
 - [x] webpack config
 - [x] ESLint
-- [ ] Mocha
-- [ ] Chai
-- [ ] Istanbul
+- [x] Mocha
+- [x] Chai
+- [x] Istanbul
