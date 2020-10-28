@@ -1,6 +1,7 @@
 'use strict'
 
 const fs = require('fs')
+const chalk = require('chalk')
 const { resolve } = require('path')
 const { devDependencies } = require('../package.json')
 
@@ -22,7 +23,7 @@ function generateDependenciesText (dependencies, initializer) {
 }
 
 function dependenciesFilter (key) {
-  return !/(@babel\/core|@babel\/preset-env|@babel\/register|eslint-)/.test(key)
+  return !/(@babel\/core|@babel\/preset-env|@babel\/register|eslint-|chalk)/.test(key)
 }
 
 function readFile (path) {
@@ -55,6 +56,7 @@ function init () {
     const filePath = resolve(__dirname, '..', 'README.md')
     const data = concatFiles()
     createFile(filePath, data)
+    console.log(chalk.green('README.md generated with success'))
   }, 1000)
 }
 
