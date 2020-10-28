@@ -15,7 +15,7 @@ function generateDependenciesText (dependencies, initializer) {
   return Object.keys(dependencies).reduce((acc, dependencie) => {
     const key = dependencie
     if (dependenciesFilter(key)) {
-      const val = dependencies[dependencie].replace(/[^\d.]/, '')
+      const val = dependencies[key].replace(/[^\d.]/, '')
       acc += `- **${key}:** ${val}\n`
     }
     return acc
