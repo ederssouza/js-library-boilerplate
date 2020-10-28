@@ -2,13 +2,13 @@
 
 const path = require('path')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
-const { filename, library } = require('./config/constants')
+const { filename, library } = require('./constants')
 
 module.exports = {
   mode: 'production',
-  entry: './src/index.js',
+  entry: path.resolve(__dirname, '..', 'src') + '/index.js',
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, '..', 'dist'),
     filename,
     libraryTarget: 'umd',
     globalObject: 'this',
