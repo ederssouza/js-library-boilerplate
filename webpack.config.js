@@ -1,6 +1,6 @@
 'use strict'
 
-const path = require('path');
+const path = require('path')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const { filename, library } = require('./config/constants')
 
@@ -17,4 +17,4 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin()
   ]
-};
+}

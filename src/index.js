@@ -1,3 +1,3 @@
 'use strict'
 
-export { sum, div} from './lib'
+export { sum, div } from './lib'

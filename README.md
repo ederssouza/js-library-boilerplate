@@ -3,7 +3,7 @@
 ## TO DO
 
 - [x] webpack config
-- [ ] ESLint
+- [x] ESLint
 - [ ] Mocha
 - [ ] Chai
 - [ ] Istanbul

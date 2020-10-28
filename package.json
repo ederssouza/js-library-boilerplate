@@ -5,13 +5,21 @@
   "module": "src/index.js",
   "libraryName": "JSLib",
   "license": "MIT",
-  "keywords": ["library"],
+  "keywords": [
+    "library"
+  ],
   "author": "ederssouza",
   "scripts": {
     "build": "webpack"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
+    "eslint": "^7.12.1",
+    "eslint-config-standard": "^15.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.2",
     "webpack": "^5.3.0",
     "webpack-cli": "^4.1.0"
   }
