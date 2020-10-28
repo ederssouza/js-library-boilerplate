@@ -11,6 +11,7 @@
   "author": "ederssouza",
   "scripts": {
     "test": "mocha",
+    "test:watch": "mocha --watch --recursive",
     "build": "webpack"
   },
   "devDependencies": {
