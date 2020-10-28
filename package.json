@@ -22,7 +22,8 @@
     "test:watch": "mocha --watch --recursive",
     "test:coverage": "nyc --reporter=html --reporter=text yarn test",
     "generate-readme": "node ./generate-readme",
-    "build": "webpack --config config/prod.config.js"
+    "build": "webpack --config config/prod.config.js",
+    "build:all": "yarn build && yarn generate-readme"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.1",
