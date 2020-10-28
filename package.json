@@ -14,11 +14,14 @@
     "url": "https://github.com/USERNAME/PROJECT_NAME/issues"
   },
   "homepage": "",
-  "keywords": ["library"],
+  "keywords": [
+    "library"
+  ],
   "scripts": {
     "test": "mocha",
     "test:watch": "mocha --watch --recursive",
     "test:coverage": "nyc --reporter=html --reporter=text yarn test",
+    "generate-readme": "node ./generate-readme",
     "build": "webpack --config config/prod.config.js"
   },
   "devDependencies": {
