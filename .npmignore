@@ -1,5 +1,5 @@
 config
-dist
+generate-readme
 src
 test
 .babelrc
