@@ -2,7 +2,7 @@
 
 ## Dependencies versions
 
-- **babel:** 7.12.1
+- **@babel/cli:** 7.12.1
 - **chai:** 4.2.0
 - **clean-webpack-plugin:** 3.0.0
 - **eslint:** 7.12.1
