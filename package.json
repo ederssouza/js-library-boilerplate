@@ -2,5 +2,8 @@
   "name": "js-library-boilerplate",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.3.0"
+  }
 }
