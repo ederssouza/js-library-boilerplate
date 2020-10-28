@@ -5,10 +5,16 @@
   "module": "src/index.js",
   "libraryName": "JSLib",
   "license": "MIT",
-  "keywords": [
-    "library"
-  ],
-  "author": "ederssouza",
+  "author": "USERNAME",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/USERNAME/PROJECT_NAME.git"
+  },
+  "bugs": {
+    "url": "https://github.com/USERNAME/PROJECT_NAME/issues"
+  },
+  "homepage": "",
+  "keywords": ["library"],
   "scripts": {
     "test": "mocha",
     "test:watch": "mocha --watch --recursive",
